@@ -1,0 +1,215 @@
+
+
+.seccion1{
+
+    background-color: lightblue;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.seccion1__item{
+
+
+    background-color: lightyellow;
+    border: 3px solid coral;
+    color:black;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+
+
+.seccion2{
+
+    background-color: white;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.seccion2__item{
+
+
+    background-color: lightgray;
+    color:black;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+
+
+
+.seccion3{
+
+    background-color: white;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+
+
+}
+
+.seccion3__item{
+
+
+    background-color: lightgray;
+    color:black;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+
+
+.seccion4{
+
+    background-color: white;
+    height: 500px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+
+}
+
+.seccion4__item{
+
+
+    background-color: lightgray;
+    color:black;
+    width: 150px;
+    height: 150px;
+    /*margin: 5px;*/
+    font-weight: bold;
+
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+.seccion4__item--gold{
+    background-color: gold;
+}
+
+.seccion4__item--red{
+    background-color: red;
+}
+
+.seccion4__item--blue1{
+    background-color: dodgerblue;
+}
+
+.seccion4__item--blue2{
+    background-color: deepskyblue;
+}
+
+.seccion4__item--purple{
+    background-color: mediumpurple;
+}
+
+
+.seccion5{
+
+    background-color: yellow;
+    height: 160px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+
+}
+
+.seccion5__item{
+
+
+    background-color: lightblue;
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    color:black;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    font-weight: bold;
+
+    text-align: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+
+}
+
+.seccion5__item--pequenio{
+    height: 40px;
+}
+
+.seccion5__item--grande{
+    height: 150px;
+}
+
+.seccion5__item--mediano1{
+    height: 80px;
+}
+
+.seccion5__item--mediano2{
+    height: 120px;
+}
