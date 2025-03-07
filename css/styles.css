@@ -50,7 +50,7 @@
 
 
  .container2{
-     height: 900px;
+     height: 100vh;
      display: grid;
      grid-template-columns:300px 1fr;
      grid-template-rows:100px 1fr 100px 100px;
@@ -86,4 +86,43 @@
  .container2__footer{
      grid-area: footer;
      background-color: lawngreen;
+ }
+
+
+ .container3{
+     height: 100vh;
+     display: grid;
+     grid-template-columns:300px 1fr 300px;
+     grid-template-rows:100px 1fr 100px;
+
+     grid-template-areas: "header header header"
+     "asideleft content asideright "
+     "footer footer footer";
+     gap: 10px;
+
+ }
+
+ .container3__header{
+     grid-area: header;
+     background-color: navy;
+ }
+
+ .container3__footer{
+     grid-area: footer;
+     background-color: navy;
+ }
+
+ .container3__asideleft{
+     grid-area: asideleft;
+     background-color: navy;
+ }
+
+ .container3__asideright{
+     grid-area: asideright;
+     background-color: navy;
+
+ }
+ .container3__content{
+     grid-area: content;
+     background-color: navy;
  }
