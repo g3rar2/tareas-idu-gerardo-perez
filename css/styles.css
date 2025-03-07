@@ -1,5 +1,5 @@
  .container1{
-     height: 900px;
+     height: 100vh;
      display: grid;
      grid-template-columns:300px 1fr 300px;
      grid-template-rows:100px 100px 1fr 100px;
@@ -61,4 +61,29 @@
      "aside footer";
      gap: 10px;
 
+ }
+
+ .container2__header{
+     grid-area: header;
+     background-color: lawngreen;
+ }
+
+ .container2__aside{
+     grid-area: aside;
+     background-color: lawngreen;
+ }
+
+ .container2__ads{
+     grid-area: ads;
+     background-color: lawngreen;
+ }
+
+ .container2__article{
+     grid-area: article;
+     background-color: lawngreen;
+ }
+
+ .container2__footer{
+     grid-area: footer;
+     background-color: lawngreen;
  }
