@@ -1,0 +1,16 @@
+@use "variables" as var;
+@use "mixins" as mix;
+
+.technologies{
+  .technologies--title{
+    background-color: $red-color;
+  }
+}
+
+.technologies--card__body{
+  background-color: $red-color;
+}
+
+.header{
+  @include mix.flexbox();
+}
