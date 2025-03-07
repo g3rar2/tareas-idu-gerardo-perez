@@ -126,3 +126,48 @@
      grid-area: content;
      background-color: navy;
  }
+
+
+ .container4{
+     height: 100vh;
+     display: grid;
+     grid-template-columns:300px 1fr 1fr;
+     grid-template-rows:100px 1fr 200px 100px;
+
+     grid-template-areas: "aside header header"
+     "aside section1 section2 "
+     "article article article"
+     "section3 section3 section3";
+     gap: 10px;
+
+ }
+
+ .container4__header{
+     grid-area: header;
+     border: black solid 3px;
+ }
+
+ .container4__aside{
+     grid-area: aside;
+     border: black solid 3px;
+ }
+
+ .container4__section1{
+     grid-area: section1;
+     border: black solid 3px;
+ }
+
+ .container4__section2{
+     grid-area: section2;
+     border: black solid 3px;
+ }
+
+ .container4__section3{
+     grid-area: section3;
+     border: black solid 3px;
+ }
+
+ .container4__article{
+     grid-area: article;
+     border: black solid 3px;
+ }
