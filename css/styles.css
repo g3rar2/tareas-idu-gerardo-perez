@@ -66,7 +66,7 @@
     z-index: 1;
     height: 500px;
   }
-  
+
 .boxDescription{
     display: flex;
     justify-content: flex-start;
@@ -332,7 +332,7 @@
         width: 96%;
         margin: 10px 0;
     }
-    
+
     .contactUs--send {
     width: 98%;
     }
