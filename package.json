@@ -1,0 +1,23 @@
+{
+  "name": "tareas-idu-gerardo-perez",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/g3rar2/tareas-idu-gerardo-perez#readme",
+  "bugs": {
+    "url": "https://github.com/g3rar2/tareas-idu-gerardo-perez/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gperezunitec@github.com/g3rar2/tareas-idu-gerardo-perez.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.0.14"
+  }
+}
